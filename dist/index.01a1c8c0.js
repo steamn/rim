@@ -140,12 +140,12 @@
       this[globalName] = mainExports;
     }
   }
-})({"39Mbm":[function(require,module,exports) {
+})({"YuISF":[function(require,module,exports) {
 var HMR_HOST = null;
 var HMR_PORT = null;
 var HMR_SECURE = false;
 var HMR_ENV_HASH = "d751713988987e9331980363e24189ce";
-module.bundle.HMR_BUNDLE_ID = "0fa2489aa94c8731ee2aee9f3fafb3e2"; // @flow
+module.bundle.HMR_BUNDLE_ID = "42412dc50fd44bf0205308ab01a1c8c0"; // @flow
 /* global HMR_HOST, HMR_PORT, HMR_ENV_HASH, HMR_SECURE */ /*::
 import type {
   HMRAsset,
@@ -380,36 +380,8 @@ function hmrAcceptRun(bundle/*: ParcelRequire */ , id/*: string */ ) {
     acceptedAssets[id] = true;
 }
 
-},{}],"5rkFb":[function(require,module,exports) {
-console.log('sdsds');
-document.addEventListener("DOMContentLoaded", function() {
-    // make it as accordion for smaller screens
-    if (window.innerWidth < 992) {
-        // close all inner dropdowns when parent is closed
-        document.querySelectorAll('.navbar .dropdown').forEach(function(everydropdown) {
-            everydropdown.addEventListener('hidden.bs.dropdown', function() {
-                // after dropdown is hidden, then find all submenus
-                this.querySelectorAll('.submenu').forEach(function(everysubmenu) {
-                    // hide every submenu as well
-                    everysubmenu.style.display = 'none';
-                });
-            });
-        });
-        document.querySelectorAll('.dropdown-menu a').forEach(function(element) {
-            element.addEventListener('click', function(e) {
-                let nextEl = this.nextElementSibling;
-                if (nextEl && nextEl.classList.contains('submenu')) {
-                    // prevent opening link if link needs to open dropdown
-                    e.preventDefault();
-                    if (nextEl.style.display == 'block') nextEl.style.display = 'none';
-                    else nextEl.style.display = 'block';
-                }
-            });
-        });
-    }
-// end if innerWidth
-}); // DOMContentLoaded  end
+},{}],"5jSut":[function(require,module,exports) {
 
-},{}]},["39Mbm","5rkFb"], "5rkFb", "parcelRequiref444")
+},{}]},["YuISF","5jSut"], "5jSut", "parcelRequiref444")
 
-//# sourceMappingURL=index.3fafb3e2.js.map
+//# sourceMappingURL=index.01a1c8c0.js.map

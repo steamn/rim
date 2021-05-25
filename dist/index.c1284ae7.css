@@ -1,2 +1,206 @@
 
+
+
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&family=Roboto+Condensed:wght@400;700&display=swap');
+
+.top-menu {
+  font-family: "Roboto Condensed", sans-serif;
+}
+
+.header-top {
+  height: 100px;
+}
+
+.arial {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.raleway{
+  font-family: 'Raleway',  sans-serif;
+}
+
+.request {
+  background: url(request.50dd261d.svg) no-repeat;
+  padding-left: 40px;
+  margin-right: 30px;
+}
+
+.contacts {
+  background: url(contacts.092d0a55.svg) no-repeat;
+  padding-left: 40px;
+  margin-right: 30px;
+}
+
+.delivery {
+  background: url(delivery.fc4b2cb5.svg) no-repeat;
+  padding-left: 40px;
+  margin-right: 30px;
+}
+
+.email-link {
+  background: url(email.d23f4713.svg) no-repeat;
+  padding-left: 40px;
+  margin-right: 30px;
+}
+
+.grey-gradient {
+  background: linear-gradient(
+    90deg,
+    #d2d1d1 0.6%,
+    #e8e8e8 30%,
+    #f4f4f4 51.7%,
+    #e8e8e8 100%
+  );
+  height: 64px;
+}
+
+.rim-orange {
+  color: #e54813;
+}
+
+.rim-bg {
+  background: #e54813;
+}
+
+.rim-border {
+    border: 1px solid #e54813;
+}
+
+.dropdown-hover-all .dropdown-menu,
+.dropdown-hover > .dropdown-menu.dropend {
+  margin-left: -1px !important;
+}
+
+/* ============ desktop view ============ */
+
+@media all and (min-width: 992px) {
+  .dropdown-menu li {
+    position: relative;
+  }
+  .nav-item .submenu {
+    display: none;
+    position: absolute;
+    left: 100%;
+    top: -7px;
+  }
+  .nav-item .submenu-left {
+    right: 100%;
+    left: auto;
+  }
+  .dropdown-menu > li:hover {
+    background-color: #f1f1f1;
+  }
+  .dropdown-menu > li:hover > .submenu {
+    display: block;
+  }
+}
+
+/* ============ desktop view .end// ============ */
+
+/* ============ small devices ============ */
+
+@media (max-width: 991px) {
+  .dropdown-menu .dropdown-menu {
+    margin-left: 0.7rem;
+    margin-right: 0.7rem;
+    margin-bottom: 0.5rem;
+  }
+}
+
+/* ============ small devices .end// ============ */
+
+.grey-gradient .dropdown-toggle::after {
+  display: none;
+}
+
+.burger-icon {
+ background: url('burger.0ef32d6e.svg') no-repeat;
+width: 24px;
+height: 24px;
+margin-top: 3px;
+margin-right: 10px;
+}
+
+.burger-line {
+width: 1px;
+height: 27px;
+margin-top: 0;
+margin-right: 10px;
+}
+
+.search-icon {
+    margin-right: 30px;
+    margin-top: 10px;
+}
+
+.search-block {
+    width: 530px;
+}
+
+.search-block input::placeholder {
+    color: #e54813;
+}
+
+.account {
+    background: url('user-icon.2d25574a.svg') no-repeat;
+     padding-left: 30px;
+     margin-right: 20px;
+     background-position-y: center;
+}
+
+.fav {
+    background: url('fav-icon.22f49acd.svg') no-repeat;
+    padding-left: 30px;
+    margin-right: 20px;
+    background-position-y: center;
+}
+
+.cart-icon {
+   background: url('cart-icon.3db7f523.svg') no-repeat;
+   padding-left: 30px;
+   background-position-y: center;
+}
+
+.burger-orange {
+  background: url('burger-orange.83ba23d8.svg') no-repeat center center;
+  background-color: #E8E8E8;
+  width: 56px;
+  height: 56px;
+  border-radius: 50%;
+}
+
+.cat-title {
+  font-size: 30px;
+}
+
+.cat-block-orange {
+  height: 1rem;
+}
+
+.cat-subtitle{
+  border-top: 1rem solid #e54813;
+}
+
+.cat-subtitle {
+  font-weight: 700;
+  font-size: 1.25rem;
+}
+
+.cat-block-content {
+  border: 1px solid #BABABA;
+}
+
+.cat-list li {
+  margin-top: .5rem;
+  font-family: 'Raleway',
+  sans-serif;
+  font-weight: 700;
+  text-decoration: underline;
+  font-size: .85rem;
+}
+
+.cat-subtitle,
+.cat-list {
+  padding-left: 10px;
+}
 /*# sourceMappingURL=index.c1284ae7.css.map */

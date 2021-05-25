@@ -4,8 +4,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/index.142e4b4a.css">
-    <link rel="stylesheet" href="/index.f15f4cd0.css">
+    <link rel="stylesheet" href="/index.8f0ee1c4.css">
+    <link rel="stylesheet" href="/index.c1284ae7.css">
     <title>Document</title>
   </head>
   <body>
@@ -17,7 +17,7 @@
               <img src="/logo.4b865dfd.svg" alt="logo">
             </div>
             <div class="d-flex top-menu">
-              <div class="request fw-bol">Заявка на рассчет</div>
+              <div class="request">Заявка на рассчет</div>
               <div class="contacts">Контакты</div>
               <div class="delivery">Контакты</div>
               <div class="email-link">zakaz@rimmarket.ru</div>
@@ -30,20 +30,117 @@
           </div>
         </div>
       </div>
-      <div class="d-flex grey-gradient">
+      <div class="d-flex grey-gradient align-items-center">
         <div class="container">
-          <div class="cat-menu">Каталог товаров</div>
-          <include src="D:\www\RM\html\src\partials\dropdown.html"></include>
-          <form class="d-flex">
-            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-            <button class="btn btn-outline-success" type="submit">
-              Search
-            </button>
-          </form>
+          <div class="d-flex">
+            <div class="dropdown me-4">
+              <button class="btn rim-bg dropdown-toggle d-flex text-white" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                <div class="d-flex">
+                  <div class="burger-icon"></div>
+                  <div class="burger-line bg-white"></div>
+                </div>
+                Каталог товаров
+              </button>
+              <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                <li><a class="dropdown-item" href="#"> Dropdown item 1 </a></li>
+                <li>
+                  <a class="dropdown-item" href="#">
+                    Dropdown item 2 &raquo;
+                  </a>
+                  <ul class="submenu dropdown-menu">
+                    <li>
+                      <a class="dropdown-item" href="#">Submenu item 1</a>
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="#">Submenu item 2</a>
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="#">Submenu item 3 &raquo;
+                      </a>
+                      <ul class="submenu dropdown-menu">
+                        <li>
+                          <a class="dropdown-item" href="#">Multi level 1</a>
+                        </li>
+                        <li>
+                          <a class="dropdown-item" href="#">Multi level 2</a>
+                        </li>
+                      </ul>
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="#">Submenu item 4</a>
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="#">Submenu item 5</a>
+                    </li>
+                  </ul>
+                </li>
+                <li><a class="dropdown-item" href="#"> Dropdown item 3 </a></li>
+                <li><a class="dropdown-item" href="#"> Dropdown item 4 </a></li>
+              </ul>
+            </div>
+            <div class="search-block me-4">
+              <form class="d-flex position-relative">
+                <img class="position-absolute end-0 search-icon" src="/search-icon.9452109d.svg" alt="search">
+                <input class="form-control me-2 py-2 rim-border" type="search" placeholder="Более 3000 товаров" aria-label="Search">
+              </form>
+            </div>
+            <div class="d-flex user-area align-items-center">
+              <div class="account me-4">Личный кабинет</div>
+              <div class="fav">Избранное (0)</div>
+            </div>
+
+            <div class="cart-button ms-auto">
+              <button class="btn d-flex rim-orange bg-white rim-border" type="button">
+                <div class="d-flex">
+                  <div class="cart-icon"></div>
+                  <div class="burger-line rim-bg"></div>
+                </div>
+                Корзина
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- header end -->
+
+    <div class="catalog">
+      <div class="container">
+        <div class="d-flex cat-title text-uppercase align-items-center mt-4">
+          <div class="burger-orange me-2"></div>
+          Каталог товаров
+        </div>
+        <div class="row mt-4">
+          <div class="col-3">
+            <div class="cat-block">
+              <div class="cat-block-content">
+                <div class="cat-subtitle text-uppercase raleway">
+                  общестроительное направление
+                </div>
+                <ul class="list-unstyled cat-list">
+                  <li>Фундaмент</li>
+                  <li>Цоколь</li>
+                  <li>Стены</li>
+                  <li>Крыша, кровля</li>
+                  <li>Окна</li>
+                  <li>Двери</li>
+                  <li>Лесницы, балконы</li>
+                  <li>Ворота, изгороди, навес</li>
+                  <li>Фасады</li>
+                  <li>Ландшафт</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="col-3">2</div>
+          <div class="col-3">3</div>
+          <div class="col-3">4</div>
         </div>
       </div>
     </div>
 
     <script src="/index.3fafb3e2.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"></script>
   </body>
 </html>
