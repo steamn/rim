@@ -5,42 +5,58 @@
 .top-menu {
     font-family: 'Roboto Condensed', sans-serif;
 }
+
+
 .header-top {
     height: 100px;
 }
+
+
 .arial {
     font-family: Arial, Helvetica, sans-serif;
 }
+
+
 .request {
-    background: url(../img/request.svg) no-repeat;
+    background: url(request.50dd261d.svg) no-repeat;
     padding-left: 40px;
     margin-right: 30px;
 }
 
+
 .contacts {
-    background: url(../img/contacts.svg) no-repeat;
+    background: url(contacts.092d0a55.svg) no-repeat;
     padding-left: 40px;
     margin-right: 30px;
 }
+
+
 .delivery {
-    background: url(../img/delivery.svg) no-repeat;
+    background: url(delivery.fc4b2cb5.svg) no-repeat;
     padding-left: 40px;
     margin-right: 30px;
 }
+
+
 .email-link {
-    background: url(../img/email.svg) no-repeat;
+    background: url(email.d23f4713.svg) no-repeat;
     padding-left: 40px;
     margin-right: 30px;
 }
+
 
 .grey-gradient {
     background: linear-gradient(90deg, #D2D1D1 0.6%, #E8E8E8 30%, #F4F4F4 51.7%, #E8E8E8 100%);
 }
 
+
 .rim-orange {
     color: #E54813;
 }
 
+
 .rim-bg {
     background: #E54813;
 }
+
+/*# sourceMappingURL=index.f15f4cd0.css.map */
