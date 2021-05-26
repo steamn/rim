@@ -1,11 +1,18 @@
 
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;800&family=Montserrat:wght@400;700&family=Roboto+Condensed:wght@400;700&display=swap');
 
 
-@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&family=Roboto+Condensed:wght@400;700&display=swap');
+ 
 
 .top-menu {
   font-family: "Roboto Condensed", sans-serif;
 }
+.text-mont-700 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+}
+
+
 .header-top {
   height: 100px;
 }
@@ -45,9 +52,11 @@
     #f4f4f4 51.7%,
     #e8e8e8 100%
   );
+ 
+}
+.grey-menu-bg {
   height: 64px;
 }
-
 .rim-orange {
   color: #e54813;
 }
@@ -153,32 +162,64 @@ margin-right: 10px;
   height: 56px;
   border-radius: 50%;
 }
+.top-sale {
+  background: url('../img/top-sale.svg') no-repeat center center;
+  background-color: #E8E8E8;
+  width: 56px;
+  height: 56px;
+  border-radius: 50%;
+}
 .cat-title {
   font-size: 30px;
 }
 .cat-block-orange {
   height: 1rem;
 }
-.cat-subtitle{
-  border-top: 1rem solid #e54813;
-}
-
+ 
 .cat-subtitle {
   font-weight: 700;
   font-size: 1.25rem;
+  font-family: 'Montserrat', sans-serif;
 }
 .cat-block-content {
   border: 1px solid #BABABA;
 }
 .cat-list li {
   margin-top: .5rem;
-  font-family: 'Raleway',
-  sans-serif;
-  font-weight: 700;
   text-decoration: underline;
   font-size: .85rem;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  color: #464545;
 }
 .cat-subtitle,
 .cat-list {
   padding-left: 10px;
+
+}
+.cat-orange {
+  background: #e54813;
+  height: 1rem;
+}
+
+.item-card-img {
+  border-bottom: 1px solid  #BABABA;
+}
+.price-title {
+  font-size: 1.375rem;
+}
+.item-sku {
+  font-size: .75rem;
+}
+.item-card {
+  padding: 20px;
+}
+.cart-btn:hover {
+  background: #ca3b0b;
+}
+.footer li a {
+  color: #161615 !important;
+}
+.footer-name {
+  color: #0C2667;
 }
