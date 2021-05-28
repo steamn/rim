@@ -387,4 +387,46 @@ margin-right: 10px;
 .footer-name {
   color: #0C2667;
 }
+
+
+ 
+
+.cat-menu-icon {
+  margin-left: 10px;
+  width: 20px;
+}
+
+
+ 
+
+.cat-ul-menu {
+  width: 300px;
+  background:#DDDDDD;
+ 
+}
+
+
+ 
+
+.cat-menu-li{
+  font-size: .875rem;
+
+  border-bottom: 1px solid #2e2e2d;
+}
+
+
+ 
+
+.cat-menu-li a {
+  color:#4c4c4c;
+  padding: 7px;
+}
+
+
+ 
+
+.cat-ul-menu .dropdown-item:hover {
+  background: #fff;
+
+}
 /*# sourceMappingURL=index.f15f4cd0.css.map */
