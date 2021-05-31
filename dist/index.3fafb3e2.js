@@ -408,7 +408,13 @@ document.addEventListener("DOMContentLoaded", function() {
         });
     }
 // end if innerWidth
-}); // DOMContentLoaded  end
+});
+// DOMContentLoaded  end
+let el = document.querySelector('.mob-list-item-link');
+el.onclick = function() {
+    if (el.getAttribute('aria-expanded') === true) console.log("ddddd");
+    console.log("2323");
+};
 
 },{}]},["39Mbm","5rkFb"], "5rkFb", "parcelRequiref444")
 

@@ -506,7 +506,7 @@ margin-right: 10px;
 
 
 .mobile-menu-body {
-   background:#F4F4F4;
+   background:#e7e7e7;
 }
 
 
@@ -636,8 +636,22 @@ ul.submenu.dropdown-menu {
 
 
 
-.mob-list-item-link {
+.mob-list-item-link  {
   text-decoration: none;
 }
 
+
+
+
+.mob-list a {
+  color: #000;
+  text-decoration: none;
+}
+
+
+
+
+.mobile-menu-body .btn-close {
+
+}
 /*# sourceMappingURL=index.c1284ae7.css.map */

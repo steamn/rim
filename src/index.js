@@ -35,3 +35,15 @@ if (window.innerWidth < 992) {
 // end if innerWidth
 });
 // DOMContentLoaded  end
+
+
+
+let el = document.querySelector('.mob-list-item-link');
+
+
+el.onclick = function () {
+if (el.getAttribute('aria-expanded') === true) {
+  console.log("ddddd");
+}
+console.log("2323");
+}
