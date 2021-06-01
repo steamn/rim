@@ -432,14 +432,26 @@ ul.submenu.dropdown-menu {
  font-weight: 600;
 }
 
-[data-bs-toggle="collapse"] .fa:before {  
+[data-bs-toggle="collapse"] .arrow:before {
   content: url("/arrow.28e30bbc.svg");
- 
+   transform: rotate(90deg);
+   display: inline-block;
+
 }
 
-[data-bs-toggle="collapse"].collapsed .fa:before {
+[data-bs-toggle="collapse"].collapsed .arrow:before {
   content: url("/arrow.28e30bbc.svg");
-  transform: rotate(45deg);
+  transform: rotate(-90deg);
+  display: inline-block;
 }
+
+ .sort-link {
+   color: #0097D9;
+ }
+
+ .sidebar-block {
+ background: #f1f1f1;
+
+ }
 
 /*# sourceMappingURL=/styles.b61e60ae.css.map */

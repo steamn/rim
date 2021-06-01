@@ -168,7 +168,7 @@
                               Стройматериалы Столярные изделия Изоляция
                               Отделочные материалы Сантехника, водоснабжение,
                               канализация Климат и отопление Электрика Освещение
-                              Окна, двери, лестницы
+                              Окна, двери, лестницы s
                             </div>
                           </li>
                           <li
@@ -634,31 +634,533 @@
 
       <div class="container">
         <div class="row">
-          <div class="col-xs-12 col-md-3 col-lg-2 side-left">
-            <div
-              class="sidebar-cat-toggle"
-              data-bs-toggle="collapse"
-              href="#categories"
-              role="button"
-              aria-expanded="true"
-              aria-controls="categories"
-            >
-              <i class="fa" aria-hidden="true"></i>
-              Link with href
-            </div>
-            <div class="collapse" id="categories">
-              <div class="card card-body">
-                Some placeholder content for the collapse component. This panel
-                is hidden by default but revealed when the user activates the
-                relevant trigger.
+          <div class="col-xs-12 col-md-3 col-lg-3 side-left">
+            <div class="sidebar-block">
+              <div class="sidebar-filters border">
+                <div class="sb-title mb-3 px-3 pt-2 fw-bold text-uppercase">
+                  Фильтр
+                </div>
+
+                <div class="price">
+                  <div
+                    class="
+                      sidebar-cat-toggle
+                      py-2
+                      d-flex
+                      justify-content-between
+                      px-3
+                    "
+                    data-bs-toggle="collapse"
+                    href="#price"
+                    role="button"
+                    aria-expanded="true"
+                    aria-controls="price"
+                  >
+                    Цена
+                    <i class="arrow" aria-hidden="true"></i>
+                  </div>
+                  <div class="collapse" id="price">
+                    <div class="p-3">
+                      Some placeholder content for the collapse component. This
+                      panel is hidden by default but revealed when the user
+                      activates the relevant trigger.
+                    </div>
+                  </div>
+                </div>
+                <div class="brand">
+                  <div
+                    class="
+                      sidebar-cat-toggle
+                      py-2
+                      d-flex
+                      justify-content-between
+                      px-3
+                    "
+                    data-bs-toggle="collapse"
+                    href="#brand"
+                    role="button"
+                    aria-expanded="true"
+                    aria-controls="brand"
+                  >
+                    Цена
+                    <i class="arrow" aria-hidden="true"></i>
+                  </div>
+                  <div class="collapse" id="brand">
+                    <div class="p-3">
+                      Some placeholder content for the collapse component. This
+                      panel is hidden by default but revealed when the user
+                      activates the relevant trigger.
+                    </div>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
 
           <div
-            class="col-xs-12 col-md-9 col-lg-10 side-content d-flex flex-column"
+            class="col-xs-12 col-md-9 col-lg-9 side-content d-flex flex-column"
           >
-            dsdsds
+            <div class="row">
+              <div class="toolbar grey-gradient py-4 px-3">
+                <div class="dropdown">
+                  <span class="pe-3">Сортировать:</span>
+                  <span
+                    class="sort-link text-decoration-underline"
+                    id="sort_link"
+                    data-bs-toggle="dropdown"
+                    aria-expanded="false"
+                  >
+                    По популярности
+                  </span>
+                  <ul
+                    class="dropdown-menu rounded-0"
+                    aria-labelledby="sort_link"
+                  >
+                    <li>
+                      <a class="dropdown-item" href="#">По популярности</a>
+                    </li>
+                    <li><a class="dropdown-item" href="#">Цене</a></li>
+                    <li>
+                      <a class="dropdown-item" href="#">Названию</a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="row row-cols-xl-4 row-cols-lg-3 row-cols-md-2">
+              <div class="col px-0">
+                <div class="item-card text-center border">
+                  <div class="item-card-img mx-3 py-3">
+                    <a href="#">
+                      <img src="img/item.png" alt="item" />
+                    </a>
+                  </div>
+                  <div class="item-name mt-3 mb-5">
+                    <a
+                      class="text-dark text-mont-700 text-decoration-none"
+                      href="#"
+                      >Вертикальные котлы RIM от 29 до 348 КВТ</a
+                    >
+                  </div>
+                  <div class="item-price text-mont-700 pb-3">
+                    <span class="price-title">84 000 </span
+                    ><span class="rim-orange">руб./шт.</span>
+                  </div>
+                  <div
+                    class="item-sku grey-gradient rounded py-1 text-mont-700"
+                  >
+                    код товара: RAL9016
+                  </div>
+                  <div class="input-group grey-gradient my-2">
+                    <button type="button" class="btn rim-orange">-</button>
+                    <input
+                      type="text"
+                      class="
+                        form-control
+                        text-center
+                        grey-gradient
+                        text-mont-700
+                      "
+                      value="10"
+                    />
+
+                    <button type="button" class="btn rim-orange">+</button>
+                  </div>
+                  <div
+                    class="
+                      cart-btn
+                      text-uppercase
+                      rim-bg
+                      text-white text-mont-700
+                      py-2
+                      rounded
+                    "
+                  >
+                    <a class="text-white text-decoration-none" href="#"
+                      >В корзину</a
+                    >
+                  </div>
+                </div>
+              </div>
+              <div class="col px-0">
+                <div class="item-card text-center border">
+                  <div class="item-card-img mx-3 py-3">
+                    <a href="#">
+                      <img src="img/item.png" alt="item" />
+                    </a>
+                  </div>
+                  <div class="item-name mt-3 mb-5">
+                    <a
+                      class="text-dark text-mont-700 text-decoration-none"
+                      href="#"
+                      >Вертикальные котлы RIM от 29 до 348 КВТ</a
+                    >
+                  </div>
+                  <div class="item-price text-mont-700 pb-3">
+                    <span class="price-title">84 000 </span
+                    ><span class="rim-orange">руб./шт.</span>
+                  </div>
+                  <div
+                    class="item-sku grey-gradient rounded py-1 text-mont-700"
+                  >
+                    код товара: RAL9016
+                  </div>
+                  <div class="input-group grey-gradient my-2">
+                    <button type="button" class="btn rim-orange">-</button>
+                    <input
+                      type="text"
+                      class="
+                        form-control
+                        text-center
+                        grey-gradient
+                        text-mont-700
+                      "
+                      value="10"
+                    />
+
+                    <button type="button" class="btn rim-orange">+</button>
+                  </div>
+                  <div
+                    class="
+                      cart-btn
+                      text-uppercase
+                      rim-bg
+                      text-white text-mont-700
+                      py-2
+                      rounded
+                    "
+                  >
+                    <a class="text-white text-decoration-none" href="#"
+                      >В корзину</a
+                    >
+                  </div>
+                </div>
+              </div>
+              <div class="col px-0">
+                <div class="item-card text-center border">
+                  <div class="item-card-img mx-3 py-3">
+                    <a href="#">
+                      <img src="img/item.png" alt="item" />
+                    </a>
+                  </div>
+                  <div class="item-name mt-3 mb-5">
+                    <a
+                      class="text-dark text-mont-700 text-decoration-none"
+                      href="#"
+                      >Вертикальные котлы RIM от 29 до 348 КВТ</a
+                    >
+                  </div>
+                  <div class="item-price text-mont-700 pb-3">
+                    <span class="price-title">84 000 </span
+                    ><span class="rim-orange">руб./шт.</span>
+                  </div>
+                  <div
+                    class="item-sku grey-gradient rounded py-1 text-mont-700"
+                  >
+                    код товара: RAL9016
+                  </div>
+                  <div class="input-group grey-gradient my-2">
+                    <button type="button" class="btn rim-orange">-</button>
+                    <input
+                      type="text"
+                      class="
+                        form-control
+                        text-center
+                        grey-gradient
+                        text-mont-700
+                      "
+                      value="10"
+                    />
+
+                    <button type="button" class="btn rim-orange">+</button>
+                  </div>
+                  <div
+                    class="
+                      cart-btn
+                      text-uppercase
+                      rim-bg
+                      text-white text-mont-700
+                      py-2
+                      rounded
+                    "
+                  >
+                    <a class="text-white text-decoration-none" href="#"
+                      >В корзину</a
+                    >
+                  </div>
+                </div>
+              </div>
+              <div class="col px-0">
+                <div class="item-card text-center border">
+                  <div class="item-card-img mx-3 py-3">
+                    <a href="#">
+                      <img src="img/item.png" alt="item" />
+                    </a>
+                  </div>
+                  <div class="item-name mt-3 mb-5">
+                    <a
+                      class="text-dark text-mont-700 text-decoration-none"
+                      href="#"
+                      >Вертикальные котлы RIM от 29 до 348 КВТ</a
+                    >
+                  </div>
+                  <div class="item-price text-mont-700 pb-3">
+                    <span class="price-title">84 000 </span
+                    ><span class="rim-orange">руб./шт.</span>
+                  </div>
+                  <div
+                    class="item-sku grey-gradient rounded py-1 text-mont-700"
+                  >
+                    код товара: RAL9016
+                  </div>
+                  <div class="input-group grey-gradient my-2">
+                    <button type="button" class="btn rim-orange">-</button>
+                    <input
+                      type="text"
+                      class="
+                        form-control
+                        text-center
+                        grey-gradient
+                        text-mont-700
+                      "
+                      value="10"
+                    />
+
+                    <button type="button" class="btn rim-orange">+</button>
+                  </div>
+                  <div
+                    class="
+                      cart-btn
+                      text-uppercase
+                      rim-bg
+                      text-white text-mont-700
+                      py-2
+                      rounded
+                    "
+                  >
+                    <a class="text-white text-decoration-none" href="#"
+                      >В корзину</a
+                    >
+                  </div>
+                </div>
+              </div>
+              <div class="col px-0">
+                <div class="item-card text-center border">
+                  <div class="item-card-img mx-3 py-3">
+                    <a href="#">
+                      <img src="img/item.png" alt="item" />
+                    </a>
+                  </div>
+                  <div class="item-name mt-3 mb-5">
+                    <a
+                      class="text-dark text-mont-700 text-decoration-none"
+                      href="#"
+                      >Вертикальные котлы RIM от 29 до 348 КВТ</a
+                    >
+                  </div>
+                  <div class="item-price text-mont-700 pb-3">
+                    <span class="price-title">84 000 </span
+                    ><span class="rim-orange">руб./шт.</span>
+                  </div>
+                  <div
+                    class="item-sku grey-gradient rounded py-1 text-mont-700"
+                  >
+                    код товара: RAL9016
+                  </div>
+                  <div class="input-group grey-gradient my-2">
+                    <button type="button" class="btn rim-orange">-</button>
+                    <input
+                      type="text"
+                      class="
+                        form-control
+                        text-center
+                        grey-gradient
+                        text-mont-700
+                      "
+                      value="10"
+                    />
+
+                    <button type="button" class="btn rim-orange">+</button>
+                  </div>
+                  <div
+                    class="
+                      cart-btn
+                      text-uppercase
+                      rim-bg
+                      text-white text-mont-700
+                      py-2
+                      rounded
+                    "
+                  >
+                    <a class="text-white text-decoration-none" href="#"
+                      >В корзину</a
+                    >
+                  </div>
+                </div>
+              </div>
+              <div class="col px-0">
+                <div class="item-card text-center border">
+                  <div class="item-card-img mx-3 py-3">
+                    <a href="#">
+                      <img src="img/item.png" alt="item" />
+                    </a>
+                  </div>
+                  <div class="item-name mt-3 mb-5">
+                    <a
+                      class="text-dark text-mont-700 text-decoration-none"
+                      href="#"
+                      >Вертикальные котлы RIM от 29 до 348 КВТ</a
+                    >
+                  </div>
+                  <div class="item-price text-mont-700 pb-3">
+                    <span class="price-title">84 000 </span
+                    ><span class="rim-orange">руб./шт.</span>
+                  </div>
+                  <div
+                    class="item-sku grey-gradient rounded py-1 text-mont-700"
+                  >
+                    код товара: RAL9016
+                  </div>
+                  <div class="input-group grey-gradient my-2">
+                    <button type="button" class="btn rim-orange">-</button>
+                    <input
+                      type="text"
+                      class="
+                        form-control
+                        text-center
+                        grey-gradient
+                        text-mont-700
+                      "
+                      value="10"
+                    />
+
+                    <button type="button" class="btn rim-orange">+</button>
+                  </div>
+                  <div
+                    class="
+                      cart-btn
+                      text-uppercase
+                      rim-bg
+                      text-white text-mont-700
+                      py-2
+                      rounded
+                    "
+                  >
+                    <a class="text-white text-decoration-none" href="#"
+                      >В корзину</a
+                    >
+                  </div>
+                </div>
+              </div>
+              <div class="col px-0">
+                <div class="item-card text-center border">
+                  <div class="item-card-img mx-3 py-3">
+                    <a href="#">
+                      <img src="img/item.png" alt="item" />
+                    </a>
+                  </div>
+                  <div class="item-name mt-3 mb-5">
+                    <a
+                      class="text-dark text-mont-700 text-decoration-none"
+                      href="#"
+                      >Вертикальные котлы RIM от 29 до 348 КВТ</a
+                    >
+                  </div>
+                  <div class="item-price text-mont-700 pb-3">
+                    <span class="price-title">84 000 </span
+                    ><span class="rim-orange">руб./шт.</span>
+                  </div>
+                  <div
+                    class="item-sku grey-gradient rounded py-1 text-mont-700"
+                  >
+                    код товара: RAL9016
+                  </div>
+                  <div class="input-group grey-gradient my-2">
+                    <button type="button" class="btn rim-orange">-</button>
+                    <input
+                      type="text"
+                      class="
+                        form-control
+                        text-center
+                        grey-gradient
+                        text-mont-700
+                      "
+                      value="10"
+                    />
+
+                    <button type="button" class="btn rim-orange">+</button>
+                  </div>
+                  <div
+                    class="
+                      cart-btn
+                      text-uppercase
+                      rim-bg
+                      text-white text-mont-700
+                      py-2
+                      rounded
+                    "
+                  >
+                    <a class="text-white text-decoration-none" href="#"
+                      >В корзину</a
+                    >
+                  </div>
+                </div>
+              </div>
+              <div class="col px-0">
+                <div class="item-card text-center border">
+                  <div class="item-card-img mx-3 py-3">
+                    <a href="#">
+                      <img src="img/item.png" alt="item" />
+                    </a>
+                  </div>
+                  <div class="item-name mt-3 mb-5">
+                    <a
+                      class="text-dark text-mont-700 text-decoration-none"
+                      href="#"
+                      >Вертикальные котлы RIM от 29 до 348 КВТ</a
+                    >
+                  </div>
+                  <div class="item-price text-mont-700 pb-3">
+                    <span class="price-title">84 000 </span
+                    ><span class="rim-orange">руб./шт.</span>
+                  </div>
+                  <div
+                    class="item-sku grey-gradient rounded py-1 text-mont-700"
+                  >
+                    код товара: RAL9016
+                  </div>
+                  <div class="input-group grey-gradient my-2">
+                    <button type="button" class="btn rim-orange">-</button>
+                    <input
+                      type="text"
+                      class="
+                        form-control
+                        text-center
+                        grey-gradient
+                        text-mont-700
+                      "
+                      value="10"
+                    />
+
+                    <button type="button" class="btn rim-orange">+</button>
+                  </div>
+                  <div
+                    class="
+                      cart-btn
+                      text-uppercase
+                      rim-bg
+                      text-white text-mont-700
+                      py-2
+                      rounded
+                    "
+                  >
+                    <a class="text-white text-decoration-none" href="#"
+                      >В корзину</a
+                    >
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </div>
