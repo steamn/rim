@@ -426,3 +426,18 @@ ul.submenu.dropdown-menu {
   text-decoration: none;
   color: #000;
 }
+
+.cat-card-list a {
+ color: #5E5E5E;
+ font-weight: 600;
+}
+
+[data-bs-toggle="collapse"] .fa:before {  
+  content: url("../img/arrow.svg");
+ 
+}
+
+[data-bs-toggle="collapse"].collapsed .fa:before {
+  content: url("../img/arrow.svg");
+  transform: rotate(45deg);
+}

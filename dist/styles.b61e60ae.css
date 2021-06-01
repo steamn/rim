@@ -427,4 +427,19 @@ ul.submenu.dropdown-menu {
   color: #000;
 }
 
+.cat-card-list a {
+ color: #5E5E5E;
+ font-weight: 600;
+}
+
+[data-bs-toggle="collapse"] .fa:before {  
+  content: url("/arrow.28e30bbc.svg");
+ 
+}
+
+[data-bs-toggle="collapse"].collapsed .fa:before {
+  content: url("/arrow.28e30bbc.svg");
+  transform: rotate(45deg);
+}
+
 /*# sourceMappingURL=/styles.b61e60ae.css.map */
