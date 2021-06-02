@@ -453,3 +453,18 @@ ul.submenu.dropdown-menu {
  background: #f1f1f1;
 
  }
+
+ .sb-title {
+  border-bottom: 1px solid #bababa;
+} 
+
+.sidebar-filters a {
+  color: #212529;
+
+}
+.cat-list-items {
+  font-weight: 500;
+}
+.sidebar-block {
+  margin-bottom: 2rem;
+}

@@ -454,4 +454,19 @@ ul.submenu.dropdown-menu {
 
  }
 
+ .sb-title {
+  border-bottom: 1px solid #bababa;
+} 
+
+.sidebar-filters a {
+  color: #212529;
+
+}
+.cat-list-items {
+  font-weight: 500;
+}
+.sidebar-block {
+  margin-bottom: 2rem;
+}
+
 /*# sourceMappingURL=/styles.b61e60ae.css.map */
