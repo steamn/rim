@@ -1,0 +1,832 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../scss/main.scss" />
+    <link rel="stylesheet" href="css/styles.css" />
+    <title>Rim Market</title>
+    <!-- Add the slick-theme.css if you want default styling -->
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"
+    />
+    <!-- Add the slick-theme.css if you want default styling -->
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css"
+    />
+  </head>
+  <body>
+    <div class="header shadow-sm">
+      <div class="container">
+        <div class="row">
+          <div
+            class="
+              d-flex
+              header-top
+              align-items-center
+              justify-content-between justify-content-lg-start
+            "
+          >
+            <div class="top-logo me-lg-3 me-xxl-5">
+              <img src="img/logo.svg" alt="logo" />
+            </div>
+            <div class="d-lg-flex d-none top-menu">
+              <div class="request me-lg-3 ps-md-0 ps-xl-40px">
+                <a class="text-decoration-none text-dark" href="#"
+                  >Заявка на рассчет</a
+                >
+              </div>
+              <div class="contacts me-lg-3 ps-md-0 ps-xl-40px">Контакты</div>
+              <div class="delivery me-lg-3 ps-md-0 ps-xl-40px">Доставка</div>
+              <div class="email-link ps-md-0 ps-xl-40px">
+                zakaz@rimmarket.ru
+              </div>
+            </div>
+            <div class="d-lg-block d-none phone-block ms-auto text-end">
+              <div class="small arial">Ежедневно с 9:00 до 21:00</div>
+              <div class="fs-4 fw-bold">8(800) 333-93-83</div>
+              <div class="rim-orange arial">Заказать обратный звонок</div>
+            </div>
+
+            <div class="d-flex d-lg-none">
+              <div class="d-flex">
+                <div class="fs-5 fw-bold me-md-5 me-2 phone-mobile">
+                  <a
+                    class="text-decoration-none text-dark"
+                    href="tel:+8003339383"
+                  >
+                    <span class="d-none d-sm-block"> 8(800) 333-93-83 </span>
+                    <div class="d-flex call-mobile me-2 d-sm-none"></div>
+                  </a>
+                </div>
+
+                <div class="d-flex search-mobile me-3"></div>
+                <a class="d-flex cart-icon-mobile me-3" href="#"></a>
+              </div>
+
+              <!-- Button trigger modal -->
+              <div data-bs-toggle="modal" data-bs-target="#menuModal">
+                <div class="burger-menu"></div>
+              </div>
+
+              <!-- Modal -->
+              <div
+                class="modal fade"
+                id="menuModal"
+                tabindex="-1"
+                aria-labelledby="exampleModalLabel"
+                aria-hidden="true"
+              >
+                <div
+                  class="modal-dialog modal-dialog-scrollable modal-fullscreen"
+                >
+                  <div class="modal-content mobile-menu-body">
+                    <div class="modal-header mt-4">
+                      <div class="btn-close" data-bs-dismiss="modal"></div>
+                    </div>
+                    <div class="modal-body">
+                      <!-- menu mobile -->
+
+                      <div class="mobile-catalog">
+                        <div class="time-phone mb-4">
+                          <div class="my-2 small arial">
+                            Ежедневно с 9:00 до 21:00
+                          </div>
+                          <div class="my-2 fs-5 fw-bold">8(800) 333-93-83</div>
+                          <div class="my-2 arial">Заказать обратный звонок</div>
+                        </div>
+
+                        <ul class="mob-list list-unstyled mb-5">
+                          <li
+                            class="
+                              d-flex
+                              position-relative
+                              mob-list-item
+                              flex-column
+                            "
+                          >
+                            <a href="#">Главная</a>
+                          </li>
+                          <li
+                            class="
+                              d-flex
+                              position-relative
+                              mob-list-item
+                              flex-column
+                            "
+                          >
+                            <a href="#">Личный кабинет</a>
+                          </li>
+                          <li
+                            class="
+                              d-flex
+                              position-relative
+                              mob-list-item
+                              flex-column
+                            "
+                          >
+                            <a href="#">Корзина</a>
+                          </li>
+                          <li
+                            class="
+                              d-flex
+                              position-relative
+                              mob-list-item
+                              flex-column
+                            "
+                          >
+                            <a href="#">Контакты</a>
+                          </li>
+                        </ul>
+                        <div
+                          class="
+                            mobile-meny-title
+                            cat-subtitle
+                            text-uppercase
+                            raleway
+                          "
+                        >
+                          Каталог товаров
+                        </div>
+                        <ul class="mob-list list-unstyled">
+                          <li
+                            class="
+                              d-flex
+                              position-relative
+                              mob-list-item
+                              flex-column
+                            "
+                          >
+                            <a
+                              class="mob-list-item-link"
+                              data-bs-toggle="collapse"
+                              href="#cat1"
+                              role="button"
+                              aria-expanded="false"
+                            >
+                              <img
+                                class="cat-menu-icon"
+                                src="img/menu-icon1.svg"
+                                alt="icon"
+                              />
+                              Стройматериалы
+                            </a>
+                            <div class="collapse" id="cat1">
+                              Стройматериалы Столярные изделия Изоляция
+                              Отделочные материалы Сантехника, водоснабжение,
+                              канализация Климат и отопление Электрика Освещение
+                              Окна, двери, лестницы s
+                            </div>
+                          </li>
+                          <li
+                            class="
+                              d-flex
+                              position-relative
+                              mob-list-item
+                              flex-column
+                            "
+                          >
+                            <a
+                              class="mob-list-item-link"
+                              data-bs-toggle="collapse"
+                              href="#cat2"
+                              role="button"
+                              aria-expanded="false"
+                            >
+                              <img
+                                class="cat-menu-icon"
+                                src="img/menu-icon2.svg"
+                                alt="icon"
+                              />
+                              Столярные изделия
+                            </a>
+                            <div class="collapse" id="cat2">
+                              Отделочные материалы Сантехника, водоснабжение,
+                              канализация Климат и отопление Электрика Освещение
+                              Окна, двери, лестницы
+                            </div>
+                          </li>
+                          <li
+                            class="
+                              d-flex
+                              position-relative
+                              mob-list-item
+                              flex-column
+                            "
+                          >
+                            <a
+                              class="mob-list-item-link"
+                              data-bs-toggle="collapse"
+                              href="#cat3"
+                              role="button"
+                              aria-expanded="false"
+                            >
+                              <img
+                                class="cat-menu-icon"
+                                src="img/menu-icon3.svg"
+                                alt="icon"
+                              />
+                              Изоляция
+                            </a>
+                            <div class="collapse" id="cat3">
+                              Стройматериалы Столярные изделия Изоляция
+                              Отделочные материалы Сантехника, водоснабжение,
+                              канализация Климат и отопление Электрика Освещение
+                              Окна, двери, лестницы
+                            </div>
+                          </li>
+                          <li
+                            class="
+                              d-flex
+                              position-relative
+                              mob-list-item
+                              flex-column
+                            "
+                          >
+                            <a
+                              data-bs-toggle="collapse"
+                              href="#cat4"
+                              role="button"
+                              aria-expanded="false"
+                              aria-controls="cat4"
+                              class="text-decoration-none"
+                            >
+                              <img
+                                class="cat-menu-icon"
+                                src="img/menu-icon4.svg"
+                                alt="icon"
+                              />
+                              Отделочные материалы
+                            </a>
+
+                            <div class="collapse" id="cat4">
+                              Стройматериалы Столярные изделия Изоляция
+                              Отделочные материалы Сантехника, водоснабжение,
+                              канализация Климат и отопление Электрика Освещение
+                              Окна, двери, лестницы
+                            </div>
+                          </li>
+                          <li
+                            class="
+                              d-flex
+                              position-relative
+                              mob-list-item
+                              flex-column
+                            "
+                          >
+                            <a
+                              class="text-decoration-none"
+                              data-bs-toggle="collapse"
+                              href="#cat5"
+                              role="button"
+                              aria-expanded="false"
+                            >
+                              <img
+                                class="cat-menu-icon"
+                                src="img/menu-icon5.svg"
+                                alt="icon"
+                              />
+                              Сантехника, водоснабжение, канализация
+                            </a>
+                            <div class="collapse" id="cat5">
+                              Стройматериалы Столярные изделия Изоляция
+                              Отделочные материалы Сантехника, водоснабжение,
+                              канализация Климат и отопление Электрика Освещение
+                              Окна, двери, лестницы
+                            </div>
+                          </li>
+                          <li
+                            class="
+                              d-flex
+                              position-relative
+                              mob-list-item
+                              flex-column
+                            "
+                          >
+                            <a
+                              class="text-decoration-none"
+                              data-bs-toggle="collapse"
+                              href="#cat6"
+                              role="button"
+                              aria-expanded="false"
+                            >
+                              <img
+                                class="cat-menu-icon"
+                                src="img/menu-icon6.svg"
+                                alt="icon"
+                              />
+                              Климат и отопление
+                            </a>
+                            <div class="collapse" id="cat6">
+                              Стройматериалы Столярные изделия Изоляция
+                              Отделочные материалы Сантехника, водоснабжение,
+                              канализация Климат и отопление Электрика Освещение
+                              Окна, двери, лестницы
+                            </div>
+                          </li>
+                          <li
+                            class="
+                              d-flex
+                              position-relative
+                              mob-list-item
+                              flex-column
+                            "
+                          >
+                            <a
+                              class="text-decoration-none"
+                              data-bs-toggle="collapse"
+                              href="#cat7"
+                              role="button"
+                              aria-expanded="false"
+                            >
+                              <img
+                                class="cat-menu-icon"
+                                src="img/menu-icon7.svg"
+                                alt="icon"
+                              />
+                              Электрика Освещение
+                            </a>
+                            <div class="collapse" id="cat7">
+                              Стройматериалы Столярные изделия Изоляция
+                              Отделочные материалы Сантехника, водоснабжение,
+                              канализация Климат и отопление Электрика Освещение
+                              Окна, двери, лестницы
+                            </div>
+                          </li>
+                          <li
+                            class="
+                              d-flex
+                              position-relative
+                              mob-list-item
+                              flex-column
+                            "
+                          >
+                            <a
+                              class="text-decoration-none"
+                              data-bs-toggle="collapse"
+                              href="#cat8"
+                              role="button"
+                              aria-expanded="false"
+                            >
+                              <img
+                                class="cat-menu-icon"
+                                src="img/menu-icon8.svg"
+                                alt="icon"
+                              />
+                              Окна, двери, лестницы
+                            </a>
+                            <div class="collapse" id="cat8">
+                              Стройматериалы Столярные изделия Изоляция
+                              Отделочные материалы Сантехника, водоснабжение,
+                              канализация Климат и отопление Электрика Освещение
+                              Окна, двери, лестницы
+                            </div>
+                          </li>
+                        </ul>
+                      </div>
+
+                      <!-- menu mobile -->
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="d-none grey-gradient grey-menu-bg align-items-center d-md-flex"
+      >
+        <div class="container">
+          <div class="d-flex">
+            <div class="dropdown me-4">
+              <button
+                class="btn rim-bg dropdown-toggle d-flex text-white"
+                type="button"
+                id="dropdownMenuButton1"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                <div class="d-flex">
+                  <div class="burger-icon"></div>
+                  <div class="burger-line bg-white"></div>
+                </div>
+                Каталог товаров
+              </button>
+              <ul
+                class="dropdown-menu cat-ul-menu py-0 rounded-0"
+                aria-labelledby="dropdownMenuButton1"
+              >
+                <li class="cat-menu-li py-1 d-flex align-items-center">
+                  <img
+                    class="cat-menu-icon"
+                    src="img/menu-icon1.svg"
+                    alt="icon"
+                  />
+                  <a class="dropdown-item fw-bold" href="#"> Стройматериалы </a>
+                </li>
+                <li class="cat-menu-li py-1 d-flex align-items-center">
+                  <img
+                    class="cat-menu-icon"
+                    src="img/menu-icon2.svg"
+                    alt="icon"
+                  />
+                  <a class="dropdown-item fw-bold" href="#">
+                    Столярные изделия
+                  </a>
+                  <ul class="submenu dropdown-menu">
+                    <li>
+                      <a class="dropdown-item" href="#">Submenu item 1</a>
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="#">Submenu item 2</a>
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="#"
+                        >Submenu item 3 &raquo;
+                      </a>
+                      <ul class="submenu dropdown-menu">
+                        <li>
+                          <a class="dropdown-item" href="#">Multi level 1</a>
+                        </li>
+                        <li>
+                          <a class="dropdown-item" href="#">Multi level 2</a>
+                        </li>
+                      </ul>
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="#">Submenu item 4</a>
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="#">Submenu item 5</a>
+                    </li>
+                  </ul>
+                </li>
+                <li class="cat-menu-li py-1 d-flex align-items-center">
+                  <img
+                    class="cat-menu-icon"
+                    src="img/menu-icon3.svg"
+                    alt="icon"
+                  />
+                  <a class="dropdown-item fw-bold" href="#">Изоляция</a>
+                </li>
+                <li class="cat-menu-li py-1 d-flex align-items-center">
+                  <img
+                    class="cat-menu-icon"
+                    src="img/menu-icon4.svg"
+                    alt="icon"
+                  />
+                  <a class="dropdown-item fw-bold" href="#"
+                    >Отделочные материалы</a
+                  >
+                </li>
+                <li class="cat-menu-li py-1 d-flex align-items-center">
+                  <img
+                    class="cat-menu-icon"
+                    src="img/menu-icon5.svg"
+                    alt="icon"
+                  />
+                  <a class="dropdown-item fw-bold" href="#"
+                    >Сантехника, водоснабжение, канализация</a
+                  >
+                </li>
+                <li class="cat-menu-li py-1 d-flex align-items-center">
+                  <img
+                    class="cat-menu-icon"
+                    src="img/menu-icon6.svg"
+                    alt="icon"
+                  />
+                  <a class="dropdown-item fw-bold" href="#"
+                    >Климат и отопление</a
+                  >
+                </li>
+                <li class="cat-menu-li py-1 d-flex align-items-center">
+                  <img
+                    class="cat-menu-icon"
+                    src="img/menu-icon7.svg"
+                    alt="icon"
+                  />
+                  <a class="dropdown-item fw-bold" href="#">Электрика</a>
+                </li>
+                <li class="cat-menu-li py-1 d-flex align-items-center">
+                  <img
+                    class="cat-menu-icon"
+                    src="img/menu-icon8.svg"
+                    alt="icon"
+                  />
+                  <a class="dropdown-item fw-bold" href="#">Освещение</a>
+                </li>
+                <li class="cat-menu-li py-1 d-flex align-items-center">
+                  <img
+                    class="cat-menu-icon"
+                    src="img/menu-icon9.svg"
+                    alt="icon"
+                  />
+                  <a class="dropdown-item fw-bold" href="#"
+                    >Окна, двери, лестницы</a
+                  >
+                </li>
+                <li class="cat-menu-li offers py-1 d-flex align-items-center">
+                  <a class="dropdown-item fw-bold" href="#">Акции</a>
+                </li>
+              </ul>
+            </div>
+            <div class="search-block me-4">
+              <form class="d-flex position-relative">
+                <img
+                  class="position-absolute end-0 search-icon"
+                  src="./img/search-icon.svg"
+                  alt="search"
+                />
+                <input
+                  class="form-control me-lg-2 me-3 py-2 rim-border"
+                  type="search"
+                  placeholder="Более 3000 товаров"
+                  aria-label="Search"
+                />
+              </form>
+            </div>
+            <div class="d-flex user-area align-items-center">
+              <div class="account me-4 w-10">
+                <span>Личный кабинет</span>
+              </div>
+              <div class="fav">
+                <span>Избранное (0)</span>
+              </div>
+            </div>
+
+            <div class="cart-button ms-auto">
+              <button
+                class="btn d-flex rim-orange bg-white rim-border"
+                type="button"
+              >
+                <div class="d-flex">
+                  <div class="cart-icon"></div>
+                  <div class="burger-line rim-bg"></div>
+                </div>
+                Корзина
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- header end -->
+
+    <div class="container">
+      <div class="d-none d-xxl-flex">container-xxl 1400px</div>
+      <div class="d-none d-xl-flex d-xxl-none">container-xl 1200px</div>
+      <div class="d-none d-lg-flex d-xl-none">container-lg 992px</div>
+      <div class="d-none d-md-flex d-lg-none">container-md 768px</div>
+      <div class="d-none d-sm-flex d-md-none">container-sm 576px</div>
+      <div class="d-flex d-sm-none">container mob 576px</div>
+
+      <div class="row mt-4">
+        <div class="col-md-6 col-lg-3 mb-3">
+          <div class="cat-block cat-box-title">
+            <div class="cat-orange"></div>
+            <div class="cat-block-content">
+              <div class="cat-subtitle text-uppercase raleway">
+                <a href="#">общестроительное направление</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-3 mb-3">
+          <div class="cat-block cat-box-title">
+            <div class="cat-orange"></div>
+            <div class="cat-block-content">
+              <div class="cat-subtitle text-uppercase raleway">
+                <a href="#"> инженерное направление</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-3 mb-3">
+          <div class="cat-block cat-box-title">
+            <div class="cat-orange"></div>
+            <div class="cat-block-content">
+              <div class="cat-subtitle text-uppercase raleway">
+                <a href="#">внутреннее заполнение</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-3 mb-3">
+          <div class="cat-block cat-box-title">
+            <div class="cat-orange"></div>
+            <div class="cat-block-content">
+              <div class="cat-subtitle text-uppercase raleway">
+                <a href="#">Система управления умным домом</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+      <nav aria-label="breadcrumb">
+        <ol class="breadcrumb">
+          <li class="breadcrumb-item"><a href="#">Главная</a></li>
+          <li class="breadcrumb-item"><a href="#">Каталог</a></li>
+          <li class="breadcrumb-item">
+            <a href="#">Арматура стальная класс А3 диаметр 6 мм 6 м</a>
+          </li>
+        </ol>
+      </nav>
+
+      <h1 class="title mb-4">Арматура стальная класс А3 диаметр 6 мм 6 м</h1>
+
+      <div class="container">
+        <div class="row">
+          <div class="sku-top grey-gradient py-3">Код товара: 401050</div>
+        </div>
+
+        <div class="row my-3">
+          <div class="col-md-6">
+            <div class="slider-container d-flex">
+              <div class="slider-nav col-md-2">
+                <img
+                  class="item-slick py-1"
+                  src="http://farm9.staticflickr.com/8242/8558295633_f34a55c1c6_b.jpg"
+                  alt="Alt"
+                />
+                <img
+                  class="item-slick py-1"
+                  src="http://farm9.staticflickr.com/8382/8558295631_0f56c1284f_b.jpg"
+                  alt="Alt"
+                />
+                <img
+                  class="item-slick py-1"
+                  src="http://farm9.staticflickr.com/8225/8558295635_b1c5ce2794_b.jpg"
+                  alt="Alt"
+                />
+                <img
+                  class="item-slick py-1"
+                  src="http://farm9.staticflickr.com/8383/8563475581_df05e9906d_b.jpg"
+                  alt="Alt"
+                />
+              </div>
+              <div class="slider-for col-md-10">
+                <img
+                  class="item-slick"
+                  src="http://farm9.staticflickr.com/8242/8558295633_f34a55c1c6_b.jpg"
+                  alt="Alt"
+                />
+                <img
+                  class="item-slick"
+                  src="http://farm9.staticflickr.com/8382/8558295631_0f56c1284f_b.jpg"
+                  alt="Alt"
+                />
+                <img
+                  class="item-slick"
+                  src="http://farm9.staticflickr.com/8225/8558295635_b1c5ce2794_b.jpg"
+                  alt="Alt"
+                />
+                <img
+                  class="item-slick"
+                  src="http://farm9.staticflickr.com/8383/8563475581_df05e9906d_b.jpg"
+                  alt="Alt"
+                />
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="price-block grey-gradient py-4 px-4">
+              <div class="price-now">
+                <span class="price-num">121 212</span>
+                руб./пог.м
+              </div>
+              <div class="price-old">
+                <span class="price-num">144 212</span>
+                руб./пог.м
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="footer grey-gradient mt-4 pt-5">
+      <div class="container">
+        <div class="row">
+          <div
+            class="
+              d-flex
+              justify-content-center justify-content-sm-start
+              col-12 col-sm-6 col-md-3
+            "
+          >
+            <div class="footer-links">
+              <div class="footer-title fw-bold">О нас:</div>
+              <ul class="list-unstyled">
+                <li class="footer-li">
+                  <a class="text-dark" href="#">Контакты</a>
+                </li>
+                <li class="footer-li">
+                  <a class="text-dark" href="#">Производители</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div
+            class="
+              d-flex
+              justify-content-center justify-content-sm-start
+              col-12 col-sm-6 col-md-3
+            "
+          >
+            <div class="footer-links">
+              <div class="footer-title fw-bold">Покупателям:</div>
+              <ul class="list-unstyled">
+                <li class="footer-li">
+                  <a class="text-dark" href="#">Доставка</a>
+                </li>
+                <li class="footer-li">
+                  <a class="text-dark" href="#">Оплата</a>
+                </li>
+                <li class="footer-li">
+                  <a class="text-dark" href="#">Отзывы</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div
+            class="
+              d-flex
+              justify-content-center justify-content-sm-start
+              col-12 col-sm-6 col-md-3
+            "
+          >
+            <div class="footer-links">
+              <div class="footer-title fw-bold">Полезная информация:</div>
+              <ul class="list-unstyled">
+                <li class="footer-li">
+                  <a class="text-dark" href="#">Условия возврата товаров </a>
+                </li>
+                <li class="footer-li">
+                  <a class="text-dark" href="#">Советы по ремонту</a>
+                </li>
+                <li class="footer-li">
+                  <a class="text-dark" href="#">Строительные калькуляторы</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div
+            class="
+              d-flex
+              justify-content-center justify-content-sm-start
+              col-12 col-sm-6 col-md-3
+            "
+          >
+            <div class="d-flex justify-content-lg-end flex-wrap">
+              <a class="px-1 mb-2" href="#"
+                ><img src="img/fb.png" alt="fb"
+              /></a>
+              <a class="px-1 mb-2" href="#"
+                ><img src="img/insta.png" alt="insta"
+              /></a>
+              <a class="px-1 mb-2" href="#"
+                ><img src="img/yt.png" alt="yt"
+              /></a>
+              <div class="copy mt-3">© ООО «РИММАРКЕТ»</div>
+            </div>
+          </div>
+        </div>
+        <div
+          class="
+            footer-logo
+            justify-content-center justify-content-md-start
+            d-flex
+            mt-3
+            pb-4
+            align-items-center
+          "
+        >
+          <img src="img/footer-rim.svg" alt="rim" />
+          <div class="footer-name pt-4 text-uppercase fw-bold ms-3 lh-1">
+            Торгово-производственный <br />
+            инвестиционный холдинг
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"></script>
+    <script
+      type="text/javascript"
+      src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"
+    ></script>
+    <script src="index.js"></script>
+  </body>
+</html>
