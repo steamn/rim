@@ -550,4 +550,55 @@ width: 75px;
   width: 100%;
 }
 
+
+input.numo {
+  width: 90px;
+  height: 55px;
+  margin-left: 42px;
+  text-align: center;
+  font-size: 24px;
+  border: 1px solid #8c8b8b;
+}
+ 
+.minuso {
+  top: 27px;
+}
+.pluso, .minuso {
+  border: 1px solid #8C8B8B;
+    background: white;
+    width: 28px;
+    right: 0px;
+    display: flex;
+    height: 28px;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.pluso {
+  background: url("/plus-price.83a658a3.svg") no-repeat 50% 50%;
+}
+
+.minuso {
+  background: url("/minus-price.537b59f7.svg") no-repeat 50% 50%;
+}
+
+.cart-block .btn {
+  width: 60%;
+  font-size: 20px;
+  color: #fff;
+  padding-top: 12px;
+}
+.nav-pills .nav-link.active, .nav-pills .show > .nav-link {
+  background: transparent;
+  border-bottom: 2px solid #E54813 !important;
+  border-radius: 0;
+ 
+}
+.nav-link {
+  padding: 1rem;
+}
+
+  
+
 /*# sourceMappingURL=/styles.b61e60ae.css.map */

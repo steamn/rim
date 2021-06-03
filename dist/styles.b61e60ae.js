@@ -117,7 +117,7 @@ parcelRequire = (function (modules, cache, entry, globalName) {
   }
 
   return newRequire;
-})({"C:/Users/Frost/AppData/Roaming/npm/node_modules/parcel-bundler/src/builtins/bundle-url.js":[function(require,module,exports) {
+})({"C:/Users/MIX/AppData/Local/Yarn/Data/global/node_modules/parcel-bundler/src/builtins/bundle-url.js":[function(require,module,exports) {
 var bundleURL = null;
 
 function getBundleURLCached() {
@@ -149,7 +149,7 @@ function getBaseURL(url) {
 
 exports.getBundleURL = getBundleURLCached;
 exports.getBaseURL = getBaseURL;
-},{}],"C:/Users/Frost/AppData/Roaming/npm/node_modules/parcel-bundler/src/builtins/css-loader.js":[function(require,module,exports) {
+},{}],"C:/Users/MIX/AppData/Local/Yarn/Data/global/node_modules/parcel-bundler/src/builtins/css-loader.js":[function(require,module,exports) {
 var bundle = require('./bundle-url');
 
 function updateLink(link) {
@@ -184,12 +184,12 @@ function reloadCSS() {
 }
 
 module.exports = reloadCSS;
-},{"./bundle-url":"C:/Users/Frost/AppData/Roaming/npm/node_modules/parcel-bundler/src/builtins/bundle-url.js"}],"css/styles.css":[function(require,module,exports) {
+},{"./bundle-url":"C:/Users/MIX/AppData/Local/Yarn/Data/global/node_modules/parcel-bundler/src/builtins/bundle-url.js"}],"css/styles.css":[function(require,module,exports) {
 var reloadCSS = require('_css_loader');
 
 module.hot.dispose(reloadCSS);
 module.hot.accept(reloadCSS);
-},{"./..\\img\\request.svg":[["request.ea91a6bd.svg","img/request.svg"],"img/request.svg"],"./..\\img\\contacts.svg":[["contacts.85b8acbc.svg","img/contacts.svg"],"img/contacts.svg"],"./..\\img\\delivery.svg":[["delivery.65b4af5e.svg","img/delivery.svg"],"img/delivery.svg"],"./..\\img\\email.svg":[["email.d035182d.svg","img/email.svg"],"img/email.svg"],"./..\\img\\burger.svg":[["burger.af0b24b8.svg","img/burger.svg"],"img/burger.svg"],"./..\\img\\burger-orange.svg":[["burger-orange.ea924d34.svg","img/burger-orange.svg"],"img/burger-orange.svg"],"./..\\img\\user-icon.svg":[["user-icon.87edf861.svg","img/user-icon.svg"],"img/user-icon.svg"],"./..\\img\\fav-icon.svg":[["fav-icon.31a20e08.svg","img/fav-icon.svg"],"img/fav-icon.svg"],"./..\\img\\cart-icon.svg":[["cart-icon.99f45fe1.svg","img/cart-icon.svg"],"img/cart-icon.svg"],"./..\\img\\search-icon.svg":[["search-icon.c37cc2d7.svg","img/search-icon.svg"],"img/search-icon.svg"],"./..\\img\\call.svg":[["call.f3071174.svg","img/call.svg"],"img/call.svg"],"./..\\img\\top-sale.svg":[["top-sale.f8c1bede.svg","img/top-sale.svg"],"img/top-sale.svg"],"./..\\img\\arrow.svg":[["arrow.28e30bbc.svg","img/arrow.svg"],"img/arrow.svg"],"_css_loader":"C:/Users/Frost/AppData/Roaming/npm/node_modules/parcel-bundler/src/builtins/css-loader.js"}],"C:/Users/Frost/AppData/Roaming/npm/node_modules/parcel-bundler/src/builtins/hmr-runtime.js":[function(require,module,exports) {
+},{"./..\\img\\request.svg":[["request.ea91a6bd.svg","img/request.svg"],"img/request.svg"],"./..\\img\\contacts.svg":[["contacts.85b8acbc.svg","img/contacts.svg"],"img/contacts.svg"],"./..\\img\\delivery.svg":[["delivery.65b4af5e.svg","img/delivery.svg"],"img/delivery.svg"],"./..\\img\\email.svg":[["email.d035182d.svg","img/email.svg"],"img/email.svg"],"./..\\img\\burger.svg":[["burger.af0b24b8.svg","img/burger.svg"],"img/burger.svg"],"./..\\img\\burger-orange.svg":[["burger-orange.ea924d34.svg","img/burger-orange.svg"],"img/burger-orange.svg"],"./..\\img\\user-icon.svg":[["user-icon.87edf861.svg","img/user-icon.svg"],"img/user-icon.svg"],"./..\\img\\fav-icon.svg":[["fav-icon.31a20e08.svg","img/fav-icon.svg"],"img/fav-icon.svg"],"./..\\img\\cart-icon.svg":[["cart-icon.99f45fe1.svg","img/cart-icon.svg"],"img/cart-icon.svg"],"./..\\img\\search-icon.svg":[["search-icon.c37cc2d7.svg","img/search-icon.svg"],"img/search-icon.svg"],"./..\\img\\call.svg":[["call.f3071174.svg","img/call.svg"],"img/call.svg"],"./..\\img\\top-sale.svg":[["top-sale.f8c1bede.svg","img/top-sale.svg"],"img/top-sale.svg"],"./..\\img\\arrow.svg":[["arrow.28e30bbc.svg","img/arrow.svg"],"img/arrow.svg"],"./..\\img\\plus-price.svg":[["plus-price.83a658a3.svg","img/plus-price.svg"],"img/plus-price.svg"],"./..\\img\\minus-price.svg":[["minus-price.537b59f7.svg","img/minus-price.svg"],"img/minus-price.svg"],"_css_loader":"C:/Users/MIX/AppData/Local/Yarn/Data/global/node_modules/parcel-bundler/src/builtins/css-loader.js"}],"C:/Users/MIX/AppData/Local/Yarn/Data/global/node_modules/parcel-bundler/src/builtins/hmr-runtime.js":[function(require,module,exports) {
 var global = arguments[3];
 var OVERLAY_ID = '__parcel__error__overlay__';
 var OldModule = module.bundle.Module;
@@ -217,7 +217,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "2330" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "54689" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};
@@ -393,5 +393,5 @@ function hmrAcceptRun(bundle, id) {
     return true;
   }
 }
-},{}]},{},["C:/Users/Frost/AppData/Roaming/npm/node_modules/parcel-bundler/src/builtins/hmr-runtime.js"], null)
+},{}]},{},["C:/Users/MIX/AppData/Local/Yarn/Data/global/node_modules/parcel-bundler/src/builtins/hmr-runtime.js"], null)
 //# sourceMappingURL=/styles.b61e60ae.js.map
